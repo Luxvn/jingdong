@@ -1,0 +1,164 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-20 11:50:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-20 16:31:44
+*/
+html,body{
+
+}
+.jdm_sort{
+	width: 100%;
+}
+.jdm_sort .jdm_search{
+	width: 100%;
+	height: 45px;
+}
+.jdm_sort .jdm_search .search_box{
+	width: 100%;
+	height: 100%;
+	line-height: 45px;
+	padding:0 50px; 
+	box-sizing:border-box;
+}
+.jdm_sort .jdm_search .search_box input{
+	float: left;
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	line-height: 30px;
+	padding-left:10px;
+	box-sizing:border-box;
+}
+.jdm_search .back{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 44px;
+	padding: 10px 11px;
+	box-sizing:border-box;
+	background:  url("../images/jd-sprites.png") -10px 12px;
+	background-size: 200px 200px;
+	background-clip: content-box;
+}
+.jdm_search .menu{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 44px;
+	padding: 10px 11px;
+	box-sizing:border-box;
+	background:  url("../images/jd-sprites.png") -50px 12px;
+	background-size: 200px 200px;
+	background-clip: content-box;
+}
+/* main */
+.jdm_main{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	padding-top: 45px;
+	box-sizing:border-box;
+	display: flex;
+}
+/* 左边侧边栏 */
+.jdm_menu{
+	width: 90px;
+	height: 100%;
+	/* iscroll插件 */
+	overflow: hidden;
+}
+.jdm_menu ul{
+	width: 100%;
+	/* height: 100%; */
+}
+.jdm_menu ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	text-align: center;
+	background: #f3f4f6;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.jdm_menu .active{
+	background: #fff;
+	color:#c95213;
+	border-right: none;
+}
+.jdm_content{
+	flex:1;
+	height: 100%;
+	padding: 0 10px 30px 15px;
+	box-sizing:border-box;
+	background: #fff;
+	/* y轴溢出滚动条 */
+	overflow-y: auto;
+} 
+.jdm_content .hot_rec h4{
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	color: #666;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	box-sizing:border-box;
+}
+.jdm_content .hot_rec ul{
+	width: 100%;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+}
+.jdm_content .hot_rec ul li{
+	float: left;
+	width: 33.3333%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-sizing:border-box;
+}
+.jdm_content .hot_guider{
+	width: 100%;
+}
+.jdm_content .hot_guider h4{
+	font-size: 12px;
+	color: #666;
+	padding-top: 20px;
+}
+.jdm_content .hot_guider ul{
+	width: 100%;
+	overflow: hidden;
+	font-size: 0;
+}
+.jdm_content .hot_guider ul li{
+	display: inline-block;
+	width: 33.333%;
+	vertical-align: middle;
+}
+.jdm_content .hot_guider ul li a{
+	display: block;
+	width: 100%;
+}
+.jdm_content .hot_guider ul li img{
+	width: 100%;
+	vertical-align: middle;
+}
+.jdm_content .hot_guider li span{
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
